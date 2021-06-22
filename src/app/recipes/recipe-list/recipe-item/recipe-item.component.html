@@ -1,1 +1,9 @@
-<p>recipe-item works!</p>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{ recipe?.name }}</h5>
+    <p class="card-text">
+      {{ recipe?.description }}
+    </p>
+  </div>
+  <img class="card-image" src="{{ recipe?.imagePath }}" alt="Card image cap" />
+</div>
